@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">tRIBial</string>
+    <string name="title">tRIBial</string>
+    <string name="btn_play">Play</string>
+    <string name="hint_username">Username</string>
+    <string name="btn_ranking">Ranking</string>
+    <string name="btn_add">Add</string>
+</resources>

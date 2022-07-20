@@ -1,0 +1,95 @@
+
+[
+  {
+    "question": "When was the original Star Wars: Battlefront II released?",
+    "correctAnswer": "October 31, 2005",
+    "incorrectAnswers": [
+      "December 18, 2004",
+      "November 21, 2006",
+      "September 9, 2007"
+    ]
+  },
+  {
+    "question": "Who had a 1973 hit with the song &#039;Hocus Pocus&#039;?",
+    "correctAnswer": "Focus",
+    "incorrectAnswers": [
+      "Pilot",
+      "Rush",
+      "AC/DC"
+    ]
+  },
+  {
+    "question": "What is the area of a circle with a diameter of 20 inches if &pi;= 3.1415?",
+    "correctAnswer": "314.15 Inches",
+    "incorrectAnswers": [
+      "380.1215 Inches",
+      "3141.5 Inches",
+      "1256.6 Inches"
+    ]
+  },
+  {
+    "question": "Which of these games was the earliest known first-person shooter with a known time of publication?",
+    "correctAnswer": "Spasim",
+    "incorrectAnswers": [
+      "Doom",
+      "Wolfenstein",
+      "Quake"
+    ]
+  },
+  {
+    "question": "In the game &quot;Cave Story,&quot; what is the character Balrog&#039;s catchphrase?",
+    "correctAnswer": "Huzzah!",
+    "incorrectAnswers": [
+      "Yes!",
+      "Whoa there!",
+      "Nyeh heh heh!"
+    ]
+  },
+  {
+    "question": "The main antagonist of the second part of JoJo&#039;s Bizarre Adventure is which of the following?",
+    "correctAnswer": "Kars",
+    "incorrectAnswers": [
+      "Erina Joestar",
+      "Santana",
+      "Wired Beck"
+    ]
+  },
+  {
+    "question": "Johnny Cash did a cover of this song written by lead singer of Nine Inch Nails, Trent Reznor.",
+    "correctAnswer": "Hurt",
+    "incorrectAnswers": [
+      "Closer",
+      "A Warm Place",
+      "Big Man with a Gun"
+    ]
+  },
+  {
+    "question": "Approximately how many Apple I personal computers were created?",
+    "correctAnswer": "200",
+    "incorrectAnswers": [
+      "100",
+      "500",
+      "1000"
+    ]
+  },
+  {
+    "question":  "What studio animated Ouran High School Host Club?",
+    "correctAnswer": "Bones",
+    "incorrectAnswers": [
+      "Production I.G",
+      "Kyoto Animation",
+      "xebec"
+    ]
+  },
+  {
+    "question": "In Black Hammer, what dimension does Colonel Weird travel through?",
+    "correctAnswer": "Para-Zone",
+    "incorrectAnswers": [
+      "Hyperspace",
+      "Mirror Universe",
+      "Phantom Zone"
+    ]
+  }
+]
+
+
