@@ -1,6 +1,5 @@
 package com.example.tribial.play.feature
 
-import android.util.Log
 import com.badoo.mvicore.element.*
 import com.badoo.mvicore.feature.BaseFeature
 import com.example.tribial.play.datasource.QuestionRepository

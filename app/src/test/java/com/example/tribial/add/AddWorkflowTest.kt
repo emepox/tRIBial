@@ -1,6 +1,7 @@
 package com.example.tribial.add
 
 import com.badoo.ribs.core.modality.BuildContext
+import com.example.tribial.database.QuestionDao
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -12,6 +13,8 @@ class AddWorkflowTest {
     @Before
     fun setup() {
         workflow = AddBuilder(object : Add.Dependency {
+            override val localDataSource: QuestionDao
+                get() = TODO("Not yet implemented")
         }).build(BuildContext.root(savedInstanceState = null)).also {
             it.node.onCreate()
         }

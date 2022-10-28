@@ -32,13 +32,9 @@ interface PlayView : RibView,
     }
 
     data class ViewModel(
-        val gameState: PlayFeature.State.GameState = PlayFeature.State.GameState.PLAYING,
         val username: String = "",
         val score: Int = 0,
         val questionNum: Int = 0,
-        val questionList: List<Question>?,
-        val submitEnabled: Boolean = false,
-        val answeredCorrectly: PlayFeature.State.Dialog = PlayFeature.State.Dialog.NO_SHOW
 
         )
 

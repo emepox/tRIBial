@@ -1,22 +1,22 @@
 package com.example.tribial.app_root
 
-import com.example.tribial.app_root.feature.AppRootFeature
+import com.badoo.ribs.routing.source.backstack.BackStack
 import com.badoo.ribs.test.emptyBuildParams
-import com.nhaarman.mockitokotlin2.mock
+import com.example.tribial.app_root.routing.AppRootRouter
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
 
 class AppRootInteractorTest {
 
-    private val feature: AppRootFeature = mock()
     private lateinit var interactor: AppRootInteractor
+    private val backStack = BackStack<AppRootRouter.Configuration>(AppRootRouter.Configuration.Menu, emptyBuildParams())
 
     @Before
     fun setup() {
         interactor = AppRootInteractor(
             buildParams = emptyBuildParams(),
-            feature = feature
+            backStack = backStack,
         )
     }
 

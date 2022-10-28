@@ -2,10 +2,10 @@ package com.example.tribial.add
 
 import com.example.tribial.add.feature.AddFeature
 import com.badoo.ribs.test.emptyBuildParams
-import com.nhaarman.mockitokotlin2.mock
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
+import org.mockito.kotlin.mock
 
 class AddInteractorTest {
 

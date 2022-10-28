@@ -1,6 +1,5 @@
 package com.example.tribial.question
 
-import com.badoo.ribs.core.modality.BuildContext
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -10,12 +9,15 @@ class QuestionWorkflowTest {
     private lateinit var workflow: Question
 
     @Before
+    /*
     fun setup() {
         workflow = QuestionBuilder(object : Question.Dependency {
         }).build(BuildContext.root(savedInstanceState = null)).also {
             it.node.onCreate()
         }
     }
+
+     */
 
     @After
     fun tearDown() {

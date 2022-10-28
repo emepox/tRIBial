@@ -1,6 +1,5 @@
 package com.example.tribial.play
 
-import android.util.Log
 import com.badoo.ribs.builder.Builder
 import com.badoo.ribs.core.modality.BuildParams
 import com.badoo.ribs.routing.source.RoutingSource

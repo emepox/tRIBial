@@ -1,22 +1,20 @@
 package com.example.tribial.menu
 
-import com.example.tribial.menu.feature.MenuFeature
 import com.badoo.ribs.test.emptyBuildParams
-import com.nhaarman.mockitokotlin2.mock
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
 
 class MenuInteractorTest {
 
-    private val feature: MenuFeature = mock()
+    //private val feature: MenuFeature = mock<MenuFeature>()
     private lateinit var interactor: MenuInteractor
 
     @Before
     fun setup() {
         interactor = MenuInteractor(
             buildParams = emptyBuildParams(),
-            feature = feature
+            //feature = feature
         )
     }
 

@@ -8,12 +8,9 @@ internal object StateToViewModel : (State) -> ViewModel {
     override fun invoke(state: State): ViewModel =
             with(state) {
                 ViewModel(
-                    gameState = gameState,
                     username = username,
                     score = score,
                     questionNum = questionIndex+1,
-                    questionList = questionList,
-                    answeredCorrectly = answeredCorrectly
                 )
             }
 }
